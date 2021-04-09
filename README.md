@@ -21,7 +21,7 @@ Please follow the [environment setup and validation section](setup/README.md) `p
 
 1. Introductions
 2. Setup Validation - say "Hello Workshop"
-    * [`Hands-on #1`]
+    * **[Hands-on #1]**
 3. Demystifying Native Images
     * Let's talk about JVM vs Native
     * Introducing ahead-of-time compilation (AOT)
@@ -30,14 +30,12 @@ Please follow the [environment setup and validation section](setup/README.md) `p
     * GraalVM Architecture
     * Native Image technology for ahead-of-time compilation
     * Build configuration for a native image build process
-
-        [`Hands-on #2`] - Understanding Reflection and the Class initialization strategy using a simple Native app
-
+        * **[Hands-on #2]** - Understanding Reflection and the Class initialization strategy using a simple Native app
     * AOT compilation limitations - what do I need to know 
         * Class Metadata, Reflection, Dynamic Class Loading, Dynamic Proxies, Accessing Resources
-        * [`Demo`] - Mitigate GraalVM AOT limitations
+        * **[Demo]** - Mitigate GraalVM AOT limitations
     * Debugging and Monitoring Tools
-        *  [`Demo`] - VisualVM and the GraalVM Dashboard
+        * **[Demo]** - VisualVM and the GraalVM Dashboard
     * Building with the GraalVM Maven plugin
 5. Building Spring Native Applications
     * What is Spring Native and why use it?
@@ -45,12 +43,11 @@ Please follow the [environment setup and validation section](setup/README.md) `p
     * Spring Native's limitations - what do I need to know?
     * Building with the Spring AOT Maven plugin. 
     * Cloud Native Buildpack support for native images 
-        
-        [`Hands-on #3`] - Building and running a Spring Native app and `dive` into the built image
+        * **[Hands-on #3]** - Building and running a Spring Native app and **_dive_** into the built image
 6. Modernize an app to use Spring Native
     * Identify limitations 
     * Addressing them step-by-step
-        * [`Demo`] 
+        * **[Demo]**
 7. Troubleshooting tips 
 8. Best practice - building native-friendly Spring libs
-    * [`Demo`]
+    * **[Demo]**
