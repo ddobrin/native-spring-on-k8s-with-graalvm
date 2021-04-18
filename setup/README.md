@@ -1,9 +1,16 @@
 # Software Prerequisites Setup and Environment Validation
 
-This exercise requires the completion of 3 steps:
+This setup exercise requires the completion of 3 steps:
 1. Install Prequisites
 2. Environment Validation 
 3. Build and run a validation app
+
+## Context
+The workshop intends to illustrate how to build Spring Native applications, using directly the GraalVM, or while leveraging AdoptOpenJDK and Cloud-Native Buildpacks. While GraalVM offers both JIT as well as AOT builds, and we'll use it to teach concepts, we wish to illustrate cloud-native buildpack concepts while setting up a second JVM, independent of GraalVM: an OpenJDK version.
+
+It is recommended to leverage  SDKMan for managing parallel versions of a Software Development Kit, or alternatively jEnv.
+If you prefer to setting up the path to the executable yourself in the IDE or Terminal window, please do so.
+Use whichever approach you're most comfortable with.
 
 ## 1. Prequisites 
 
@@ -63,6 +70,9 @@ Ex.:  |     | 21.0.0.2.r11 | grl     | installed  | 21.0.0.2.r11-grl
 
 # Use GraalVM
 > sdk use java  21.0.0.2.r11-grl
+
+# please validate that you have installed the `native-image` executable
+> gu install native-image
 ```
 
 With Java installed, let's move to validating that utilities are properly installed.
@@ -102,7 +112,7 @@ Server: Docker Engine - Community
 * Dive utility
 
 ```shell
-# Let's pull some sample images
+# pull some sample images and open them with `dive`
 > docker pull triathlonguy/hello-function-jvm:0.0.1
 > docker pull triathlonguy/hello-function-native:0.0.1
 
