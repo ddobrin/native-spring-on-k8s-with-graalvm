@@ -5,14 +5,15 @@ The workshop is designed to help Spring Boot developers build new / modernize ex
 
 ---------
 ## Repository layout
+
 The repo contains sample code suporting the workshop agenda and illustrates how to build Native Applications using Spring Native Beta and GraalVM.
 
 The content is organized around the following sections, each with a `README.md` file explaining how to build and run the samples or interesting areas to explore further.
-* Environment [Prerequisite Software Setup and Validation](setup/README.md) 
+* Environment - [Prerequisite Software Setup and Validation](setup/README.md) 
 * Understanding [GraalVM](graalvm/README.md)
 * Building [Spring Native](spring-native/README.md) Applications
 * [Modernizing](modernize/README.md) an app to use Spring Native
-* [Complete](complete/REadme.md) Spring Native examples
+* [Complete](complete/README.md) Spring Native examples
 
 #### `Highly recommended:`
 Please follow the [environment setup and validation section](setup/README.md) `prior` to the start of the workshop.
