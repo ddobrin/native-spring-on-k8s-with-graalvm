@@ -164,11 +164,15 @@ Server Version: version.Info{Major:"1", Minor:"18+", GitVersion:"v1.18.16-gke.30
 
 # compile and run the app
 > javac Helloworkshop.java
-> java Helloworkshop
+> time java Helloworkshop
 
 Observe the Java version and vendor information:
 java.vendor.version: AdoptOpenJDK
 java.vm.version: 11.0.10+9
+...
+real	0m0.140s
+user	0m0.174s
+sys	0m0.013s
 ```
 
 * Build and run the app with GraalVM
@@ -180,7 +184,7 @@ java.vm.version: 11.0.10+9
 # compile and run the app
 > javac Helloworkshop.java
 > native-image Helloworkshop
-> ./helloworkshop
+> time ./helloworkshop
 
 Observe the Java version and vendor information:
 java.vm.vendor: Oracle Corporation
@@ -189,6 +193,10 @@ java.vm.specification.version: 11
 java.vm.specification.name: Java Virtual Machine Specification
 java.vm.specification.vendor: Oracle Corporation
 java.vm.version: GraalVM 21.0.0.2 Java 11
+...
+real	0m0.009s
+user	0m0.001s
+sys	0m0.009s
 ```
 
 # You are now ready to go !
