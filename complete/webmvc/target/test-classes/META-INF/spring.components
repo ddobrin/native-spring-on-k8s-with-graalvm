@@ -1,0 +1,4 @@
+#
+#Sat May 01 09:43:46 EDT 2021
+com.example.webmvc.WebmvcController=org.springframework.stereotype.Component
+com.example.webmvc.WebmvcApplication=org.springframework.stereotype.Component

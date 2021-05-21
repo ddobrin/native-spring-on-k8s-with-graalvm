@@ -1,0 +1,9 @@
+/home/dandobrin/spring-native/complete/petclinic-jdbc/src/test/java/org/springframework/samples/petclinic/PetclinicIntegrationTests.java
+/home/dandobrin/spring-native/complete/petclinic-jdbc/src/test/java/org/springframework/samples/petclinic/vet/VetTests.java
+/home/dandobrin/spring-native/complete/petclinic-jdbc/src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java
+/home/dandobrin/spring-native/complete/petclinic-jdbc/src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java
+/home/dandobrin/spring-native/complete/petclinic-jdbc/src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java
+/home/dandobrin/spring-native/complete/petclinic-jdbc/src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java
+/home/dandobrin/spring-native/complete/petclinic-jdbc/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java
+/home/dandobrin/spring-native/complete/petclinic-jdbc/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+/home/dandobrin/spring-native/complete/petclinic-jdbc/src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java
