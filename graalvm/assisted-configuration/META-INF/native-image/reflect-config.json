@@ -1,0 +1,6 @@
+[
+{
+  "name":"StringCapitalizer",
+  "methods":[{"name":"capitalize","parameterTypes":["java.lang.String"] }]
+}
+]

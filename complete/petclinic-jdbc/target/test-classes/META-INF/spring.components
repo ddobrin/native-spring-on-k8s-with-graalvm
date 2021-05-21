@@ -1,0 +1,15 @@
+#
+#Fri May 14 12:15:35 UTC 2021
+org.springframework.samples.petclinic.owner.VisitController=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.visit.JdbcVisitRepositoryImpl=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.vet.JdbcVetRepositoryImpl=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.PetClinicApplication=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.system.CrashController=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.service.ClinicServiceTests$TestClinicConfiguration=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.system.WelcomeController=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.owner.JdbcPetRepositoryImpl=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.owner.PetTypeFormatter=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.vet.VetController=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.owner.PetController=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.owner.JdbcOwnerRepositoryImpl=org.springframework.stereotype.Component
+org.springframework.samples.petclinic.owner.OwnerController=org.springframework.stereotype.Component
