@@ -71,14 +71,14 @@ All samples are relative to the repository root, for ex.:
         * GraalVM Dashboard -- **[Demo](graalvm/README.md#graalvm-dashboard)** 
 6. [Building Spring Native Applications](spring-native/README.md) with GraalVM
     * What is Spring Native and why use it ?
-    * AOT compilation limitations - how do Native Hints in Spring help bypass them ? -- **[Demo(s)](spring-native/README.md#Demo)**
+    * AOT compilation limitations - how do Native Hints in Spring help bypass them ? -- **[Demo(s)](spring-native/README.md)**
        * Accessing Resources in Spring Native Images 
-         * **[Hands-on Lab #3](spring-native/README.md#Lab)**
+         * **[Hands-on Lab #3](spring-native/README.md**
     * Spring Native's limitations - what do I need to know ?
     * Building with the Spring AOT Maven plugin 
     * Cloud Native Buildpacks -support source-to-image for native images 
         * Building, containerizing and running a Spring Native app and **_diving_** into the built image
-            * **[Optional Hands-on Lab #4](spring-native/README.md#Lab)**
+            * **[Optional Hands-on Lab #4](spring-native/README.md)**
     * Using a container-based Spring Native build environment
     * Troubleshooting tips
 7. [Best Practices](best-practices/README.md) for designing native-friendly Spring apps and libraries
